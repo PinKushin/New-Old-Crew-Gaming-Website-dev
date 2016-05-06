@@ -1,0 +1,29 @@
+head {
+	background-color: black;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+body {
+	background-color: black;
+	height: 100%;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+}
+
+p.about {
+	color: white;
+	font-family: "Times New Roman", sanserif;
+}
+
+h3.about {
+	color: white;
+	font-family: "Times New Roman", sanserif;
+}
+h4.about {
+	color: white;
+	font-family: "Times New Roman", sanserif;
+}
