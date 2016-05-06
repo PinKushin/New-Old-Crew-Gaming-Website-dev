@@ -1,29 +1,106 @@
+
+/*all*/
+*{
+	color: #FFFFFF;
+	font-family: ubuntu, sans-serif; 
+	text-align: center;
+}
+
+/*basic layout*/
 head {
+	font-size: 100%;
 	background-color: black;
 	height: 100%;
 	margin: 0;
-	text-align: center;
 	width: 100%;
 }
 
 body {
+	font-size: 100%;
 	background-color: black;
 	height: 100%;
 	margin: 0;
-	text-align: center;
+	padding: 0;
 	width: 100%;
 }
 
-p.about {
-	color: white;
-	font-family: "Times New Roman", sanserif;
+footer{
+	margin: auto;
+	width: 40%;
+	padding: 10px;
+}
+
+/*nav bar*/
+nav {
+	background-color:  #4d4d4d;
+	margin: 0;
+	overflow: hidden;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+
+nav > ul > li > a {
+	color: #aaa;
+	background-color: #666;
+	display: block;
+	line-height: 2em;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+}
+
+/*links*/
+a {
+	color: #00ffff;
+}
+
+/*Home page*/
+h1.welcome {
+	font-size: 2em; /* 32px / 16 = 2em */
+	border-style: outset;
+	border-color: #FFFFFF;
+	border-width: 5px;
 }
 
 h3.about {
-	color: white;
-	font-family: "Times New Roman", sanserif;
+	text-decoration: underline;
 }
-h4.about {
-	color: white;
-	font-family: "Times New Roman", sanserif;
+
+/*Sky Raiser page*/
+h2.screenshots {
+	text-decoration: underline;
 }
+
+img {
+	margin: 5px;
+}
+
+/*Team page*/
+
+ul.team{
+	margin: 0;
+	padding: 0;
+}
+
+ul.team li{
+	display: inline-block;
+	list-style-image: none;
+}
+ul > li {
+	background-color:#666;
+	display: block;
+	padding: 0.5em 0.5em;
+	text-decoration: none;
+}
+
+
+
+
+
